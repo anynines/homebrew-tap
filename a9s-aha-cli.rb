@@ -13,7 +13,7 @@ class A9sAhaCli < Formula
   depends_on :arch => :x86_64
 
   def install
-    bin.install 'a9s-aha-cli'
+    bin.install 'a9s-aha-cli-macos' => 'a9s-aha-cli'
   end
 
   test do
