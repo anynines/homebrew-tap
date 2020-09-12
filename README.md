@@ -9,4 +9,5 @@ Homebrew is "the missing package manager for macOS".
 brew tap anynines/tap
 
 brew install a9s-aha-cli
+brew install a9sharvest
 ```
