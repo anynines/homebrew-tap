@@ -1,6 +1,6 @@
 require 'formula'
 
-class A9sAhaCli < Formula
+class A9sharvest < Formula
   desc "a9sharvest"
   homepage 'https://github.com/anynines/a9sharvest'
   version 'v1.0.0'
