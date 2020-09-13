@@ -3,11 +3,11 @@ require 'formula'
 class A9sharvest < Formula
   desc "a9sharvest"
   homepage 'https://github.com/anynines/a9sharvest'
-  version 'v1.0.0'
+  version 'v1.1.0'
 
   if OS.mac?
-    url 'https://github.com/anynines/a9sharvest/releases/download/v1.0.0/a9sharvest-macos'
-    sha256 '32328f911fa681e71e2215a336b8bb54898bc09e9d1db232d7431b155f1e5bfe'
+    url 'https://github.com/anynines/a9sharvest/releases/download/v1.1.0/a9sharvest-macos'
+    sha256 'c74913bf32d59f6834d422f5e387cf6ac72d26545f6794d3244977823cfb76e4'
   end
 
   depends_on :arch => :x86_64
